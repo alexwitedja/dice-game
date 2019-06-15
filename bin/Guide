@@ -1,0 +1,23 @@
+How to use the application is expected to be use.
+
+1. Press the menu, a drop down will appear.
+2. You can exit or add player.
+3. Selecting add player would pop up a dialog box, fill in information of the players and press add player button.
+4. When you've added all the players, close the dialog box by pressing ok button, the combobox would be filled at this point.
+5. Place bets for all the players that have been added. By selecting a player and pressing bet in the toolbar.
+6. Pressing bet will cause a bet panel to appear, user must state how much points the selected player wants to bet.
+7. All players must place a bet, this is important because they won't be able to roll if they haven't placed a bet.
+8. Next roll the dice for all players, when the rolling is in process, the application won't allow another dice to be rolled
+disabling the buttons related to rolling.
+9. Finally, do the house roll, it will check whether all players have rolled the dice and all players have placed bet. 
+otherwise it won't roll and notify the user.
+10. If conditions are met house will roll and results will be compared and winners/losers are determined and logged
+out to the results panel.
+11. End game, all bets reset to 0.
+
+Additional functionality.
+
+1. showing previous and current results.
+	can alternate between results.
+2. removing players.
+	pressing the button will remove a selected player in the combobox, if no player is selected the button will notify user.
